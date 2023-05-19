@@ -78,9 +78,7 @@ figure {
   padding-bottom: 40px;
   float: left;
   width: 300px;
-  height:100%
   position: fixed;
-  
   z-index: 1001;
   background: #f2f3f7;
   -webkit-transition: 0.5s;
@@ -89,6 +87,7 @@ figure {
   @media screen and (max-width: 768px) {
     #colorlib-aside {
       width: 300px;
+      height:100%
       -moz-transform: translateX(-300px);
       -webkit-transform: translateX(-300px);
       -ms-transform: translateX(-300px);
